@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hi cậu</title>
+	<meta name="name" charset="utf-8" content="content">
+	<link rel="stylesheet" type="text/css" href="./another/custom.css">
+	<script type="text/javascript" src="./another/jquery.js"></script>
+</head>
+<body id="homepage">
+	<div id="welcome">
+		<img src="./another/images-music/ava.jpg" width="250px" height="250px" alt="Lợn béo" id="avatar">
+		<h1>Hello, Mun!</h1>
+		<p>Chúc cậu Valentine Vui Vẻ hihi <33</p>
+		<small>Có cả nhạc á nên trả lời từ từ hoi</small><br/><br/>
+		<button type="submit" id="start"  onclick="change()">bắt đầu thôi</button>
+	</div>
+	<div class="content">
+		<h1 class="ques">Cậu có phải Mew Mew ấu trĩ hông?</h1>
+		<p>Hãy suy nghĩ thật kỹ trước khi trả lời nha!</p>
+		<div class="ans">
+			<button type="" class="buttonY" onclick="next()">Đúng</button>
+			<button type="" class="buttonN" onclick="next()">Hông</button>	
+		</div>
+	</div>
+
+	<div class="content">
+		<h1 class="ques">Cậu có yêu tớ hông?</h1>
+		<div class="ans">
+			<button type="" class="buttonY" onclick="showpopup()">Có, tớ không bao giờ bỏ cậu đâu</button>
+			<button type="" id="hide" class="buttonN" onmouseenter="movebutton()">Không, cậu béo ú nên tớ không có yêu</button>	
+		</div>
+	</div>
+	<div id="end">
+		<h1>Hihi tớ biết cậu yêu tớ nhất mà!</h1>
+		<p>Nhắn nhủ gì cho tớ đi nào <33</p>
+		<input type="text" name="" id="confes" placeholder="Viết gì cho tớ đi!" onkeydown="add()"><br/>
+		<a href="https://www.messenger.com/" title="" id="send">Gửi cho bạn Mòe đáng iu!</a>
+		<!-- https://www.facebook.com/daumoe.1999 -->
+	</div>
+	<script src="./another/custom.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
