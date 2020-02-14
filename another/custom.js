@@ -32,10 +32,10 @@ showpopup=()=>{
 }
 
 movebutton=()=>{
-	let x = $(window).width*Math.random();
-	let y = $(window).height*Math.random();
-	hide.style.top = y;
+	let x = $(window).width()/5 * Math.random() + 'px';
+	let y = $(window).height()/3 * Math.random() + 'px';
 	hide.style.left = x;
+	hide.style.top = y;
 }
 
 add=()=>{
