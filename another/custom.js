@@ -36,7 +36,7 @@ movebutton=()=>{
 	let height = $(document).height();
 	var y = Math.random()*height;
 	var x = Math.random()*width;
-	y = y+'px';
+	y = y/2+'px';
 	x = x+'px';
 	hide.style.top = x;
 	hide.style.left = y;
