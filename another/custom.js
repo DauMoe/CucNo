@@ -38,8 +38,8 @@ movebutton=()=>{
 	var x = Math.random()*width;
 	y = y+'px';
 	x = x+ 'px'
-	hide.style.top = x;
-	hide.style.left = y;
+	hide.style.top = y;
+	hide.style.left = x;
 }
 
 add=()=>{
