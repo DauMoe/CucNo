@@ -33,7 +33,8 @@ showpopup=()=>{
 
 movebutton=()=>{
 	let width = $(document).width();
-	var y = Math.random()*width;
+	let height = $(document).height();
+	var y = Math.random()*height;
 	var x = Math.random()*width;
 	y = y+'px';
 	x = x+'px';
