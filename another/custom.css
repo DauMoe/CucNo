@@ -72,14 +72,14 @@ div#welcome>p {
 }
 
 .ans {
-	width: 60vw;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 100vw;
+	position: relative;
+	height: 50vh;
 }
 
 .buttonY {
+	position: absolute;
+	top: 35%;
 	width: 14rem;
 	border: none;
 	height: 4rem;
@@ -93,6 +93,8 @@ div#welcome>p {
 }
 
 .buttonN {
+	position: absolute;
+	top: 35%;
 	position: relative;
     font-family: 'Source Sans Pro', sans-serif;
 	width: 14rem;
@@ -103,6 +105,23 @@ div#welcome>p {
 	font-size: 20px;
 	font-weight: bold;
 	color: #0e4f4f;
+}
+
+@media screen and (max-width: 600px){
+	.buttonY {
+		position: absolute;
+		top: 10%;
+		width: 14rem;
+		border: none;
+		height: 4rem;
+		border-radius: 6px;
+		background-color: #35b8c6;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		margin-right: 4rem;
+	}
 }
 
 #end {
@@ -157,5 +176,7 @@ div#welcome>p {
 	font-size: 18px;
 	font-family: 'Muli', sans-serif;
 };
+
+
 
 
